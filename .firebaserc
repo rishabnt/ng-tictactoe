@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rnt-ngtictactoe": {
+      "hosting": {
+        "ttt": [
+          "rnt-ngtictactoe"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rnt-ngtictactoe"
+  }
+}

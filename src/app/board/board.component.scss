@@ -1,0 +1,45 @@
+.gameText{
+    height: 5vh;
+    text-align: center;
+}
+
+.newGameContainer {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 10vh;
+}
+
+.newGameButton {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.cpText, .winnerText {
+    font-size: 1.3rem;
+}
+
+.board {
+    display: grid;
+    height: 81vh;
+    margin: auto;
+    padding: auto;
+    grid-template-columns: 20vh 20vh 20vh;
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-gap: 0px;
+    justify-content: center;
+}
+
+app-square {
+    border: 1px gray solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
